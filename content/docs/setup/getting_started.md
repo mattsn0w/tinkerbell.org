@@ -28,14 +28,13 @@ Follow these steps to create the stack on a Libvirt VM using Vagrant. Then deplo
 1. Clone this repository
 
    ```bash
-   git clone https://github.com/tinkerbell/playground.git
-   cd playground
+   git clone https://github.com/tinkerbell/playground
    ```
 
 1. Start the stack
 
    ```bash
-   cd vagrant
+   cd playground/stack/vagrant
    vagrant up
    # This process will take about 5-10 minutes depending on your internet connection.
    # Hook is about 400MB in size and the Ubuntu jammy image is about 500MB
